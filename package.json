@@ -2,8 +2,9 @@
   "name": "announcement-api",
   "version": "0.0.1",
   "description": "",
-   "scripts": {
-        "start": "node main.js"
+  "main": "node main.js",
+  "engines": {
+    "node": ">= 14"
   },
   "dependencies": {
     "@nestjs/common": "8.2.4",
