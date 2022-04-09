@@ -1076,7 +1076,7 @@ const jsonwebtoken_1 = (0, tslib_1.__importDefault)(__webpack_require__(33));
 let AuthMiddleware = class AuthMiddleware {
     constructor() {
         this.sessionVerifier = function (options) {
-            const barongJwtPublicKey = Buffer.from(config_1.default.get('barong.jwt_public_key').trim(), 'base64').toString('utf-8');
+            const barongJwtPublicKey = Buffer.from(config_1.default.get('LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUF1dGVVckpTVC9XaGpRcE52R1ZrZApHa215KzNMcXVSanNUbzJvcEIwRlNTNGtoem9QV0p3ZHZhcDNrbkpxMGdSUHNTb1NCc3lvbFZKSkxQdWU3NlpiCjVaSklzV0k0eTZuWjlMalBWenFlTlR5T25BUzVHczJBdFRaZnN4QnlCRGYxVTJ6dDI3Rkk2dEI1a2hmSjUzYXoKSTVXMzlxTSs5K08zRnFPMlM5VHNDeXppTDVSQ1dFVlBXQWlJdGZZZlFBOHZRR2dQK0hvTHJNRUZLWUxFRkpocwpIdGdINnhTVzNXbFA1aW5YZUxvM0tyMGYzNUlIUzRna296YTF5TEw1bTE1a0NIZmtVSDJDT1pyT3l2R2loY3EvCksyaXF4RzlIK3RJVXlqV1lIcDVQbUxlT0VubzNXa1gzd1E2NlhnVXpKYWNFWUVtSGVIanVRQjZHUWVCaFdsSWoKeVFJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg==').trim(), 'base64').toString('utf-8');
             if (!barongJwtPublicKey) {
                 throw new Error('Barong JWT Public key should be set');
             }
