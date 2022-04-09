@@ -2079,11 +2079,11 @@ async function bootstrap() {
     const document = swagger_1.SwaggerModule.createDocument(app, swaggerConfig);
     swagger_1.SwaggerModule.setup(config_1.default.get('path_prefix') + '/public/docs', app, document);
     const logger = app.get(common_1.Logger);
-    await app.listen(config_1.default.get('port'), () => {
+    await app.listen(process.env.PORT || '3000', () => {
         logger.log(`
       ################################################
-      🛡️  Server listening on port: ${config_1.default.get('port')} 🛡️
-      Swagger:  http://localhost:${config_1.default.get('port')}${config_1.default.get('path_prefix')}/public/docs
+      🛡️  Server listening on port: 4000 🛡️
+      Swagger:  http://localhost:4000/public/docs
       ################################################
     `);
     });
