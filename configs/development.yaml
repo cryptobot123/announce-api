@@ -1,0 +1,25 @@
+env: development
+port: 4000
+logs:
+  level: 'silly'
+
+path_prefix: '/api'
+
+database:
+  user: root
+  password: VIETNAM2000
+  host: 127.0.0.1
+  port: 3306
+  dialect: mysql
+
+barong:
+  jwt_public_key: 'xxx'
+
+vault:
+  address: example
+  token: example
+  app_name: example
+
+waiting-time-minutes-loop: 15
+#15 concurrently
+amount-concurrently-run: 15

@@ -1,0 +1,422 @@
+{"context":"RoutesResolver","level":"info","message":"TotpController {/api/public/totp}:","timestamp":"2022-04-06 15:58:32"}
+{"context":"RoutesResolver","level":"info","message":"WithdrawsController {/api/private/withdraws}:","timestamp":"2022-04-06 15:58:32"}
+{"context":"RoutesResolver","level":"info","message":"AdminArticleController {/api/admin/article}:","timestamp":"2022-04-06 15:58:32"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/create, POST} route","timestamp":"2022-04-06 15:58:32"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/list, GET} route","timestamp":"2022-04-06 15:58:32"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/find/:id, GET} route","timestamp":"2022-04-06 15:58:32"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/:id, PATCH} route","timestamp":"2022-04-06 15:58:32"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/:id, DELETE} route","timestamp":"2022-04-06 15:58:32"}
+{"context":"RoutesResolver","level":"info","message":"PublicArticleController {/api/public/article}:","timestamp":"2022-04-06 15:58:32"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/article/list, GET} route","timestamp":"2022-04-06 15:58:32"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/article/:id, GET} route","timestamp":"2022-04-06 15:58:32"}
+{"context":"RoutesResolver","level":"info","message":"PublicBannerController {/api/public/banner}:","timestamp":"2022-04-06 15:58:32"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/banner/list, GET} route","timestamp":"2022-04-06 15:58:32"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/banner/:id, GET} route","timestamp":"2022-04-06 15:58:32"}
+{"context":"RoutesResolver","level":"info","message":"AdminBannerController {/api/admin/banner}:","timestamp":"2022-04-06 15:58:32"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/banner/fetch, GET} route","timestamp":"2022-04-06 15:58:32"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/banner/show/banner_id=:id, PATCH} route","timestamp":"2022-04-06 15:58:32"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2022-04-06 15:58:32"}
+{"level":"info","message":"\n      ################################################\n      \ud83d\udee1️  Server listening on port: 4000 \ud83d\udee1️\n      Swagger:  http://localhost:4000/api/public/docs\n      ################################################\n    ","timestamp":"2022-04-06 15:58:32"}
+{"context":"RoutesResolver","level":"info","message":"TotpController {/api/public/totp}:","timestamp":"2022-04-06 11:17:46"}
+{"context":"RoutesResolver","level":"info","message":"WithdrawsController {/api/private/withdraws}:","timestamp":"2022-04-06 11:17:46"}
+{"context":"RoutesResolver","level":"info","message":"AdminArticleController {/api/admin/article}:","timestamp":"2022-04-06 11:17:46"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/create, POST} route","timestamp":"2022-04-06 11:17:46"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/list, GET} route","timestamp":"2022-04-06 11:17:46"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/find/:id, GET} route","timestamp":"2022-04-06 11:17:46"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/:id, PATCH} route","timestamp":"2022-04-06 11:17:46"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/:id, DELETE} route","timestamp":"2022-04-06 11:17:46"}
+{"context":"RoutesResolver","level":"info","message":"PublicArticleController {/api/public/article}:","timestamp":"2022-04-06 11:17:46"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/article/list, GET} route","timestamp":"2022-04-06 11:17:46"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/article/:id, GET} route","timestamp":"2022-04-06 11:17:46"}
+{"context":"RoutesResolver","level":"info","message":"PublicBannerController {/api/public/banner}:","timestamp":"2022-04-06 11:17:46"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/banner/list, GET} route","timestamp":"2022-04-06 11:17:46"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/banner/:id, GET} route","timestamp":"2022-04-06 11:17:46"}
+{"context":"RoutesResolver","level":"info","message":"AdminBannerController {/api/admin/banner}:","timestamp":"2022-04-06 11:17:46"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/banner/fetch, GET} route","timestamp":"2022-04-06 11:17:46"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/banner/show/banner_id=:id, PATCH} route","timestamp":"2022-04-06 11:17:46"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2022-04-06 11:17:46"}
+{"level":"info","message":"\n      ################################################\n      \ud83d\udee1️  Server listening on port: 4000 \ud83d\udee1️\n      Swagger:  http://localhost:4000/api/public/docs\n      ################################################\n    ","timestamp":"2022-04-06 11:17:46"}
+{"context":"ExceptionsHandler","level":"error","message":"Access denied for user 'root'@'localhost' (using password: YES)","stack":["SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)\n    at ConnectionManager.connect (/root/api/annoucement/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:118:17)\n    at processTicksAndRejections (internal/process/task_queues.js:94:5)"],"timestamp":"2022-04-06 11:19:02"}
+{"context":"RoutesResolver","level":"info","message":"TotpController {/api/public/totp}:","timestamp":"2022-04-06 11:21:15"}
+{"context":"RoutesResolver","level":"info","message":"WithdrawsController {/api/private/withdraws}:","timestamp":"2022-04-06 11:21:15"}
+{"context":"RoutesResolver","level":"info","message":"AdminArticleController {/api/admin/article}:","timestamp":"2022-04-06 11:21:15"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/create, POST} route","timestamp":"2022-04-06 11:21:15"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/list, GET} route","timestamp":"2022-04-06 11:21:15"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/find/:id, GET} route","timestamp":"2022-04-06 11:21:15"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/:id, PATCH} route","timestamp":"2022-04-06 11:21:15"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/:id, DELETE} route","timestamp":"2022-04-06 11:21:15"}
+{"context":"RoutesResolver","level":"info","message":"PublicArticleController {/api/public/article}:","timestamp":"2022-04-06 11:21:15"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/article/list, GET} route","timestamp":"2022-04-06 11:21:15"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/article/:id, GET} route","timestamp":"2022-04-06 11:21:15"}
+{"context":"RoutesResolver","level":"info","message":"PublicBannerController {/api/public/banner}:","timestamp":"2022-04-06 11:21:15"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/banner/list, GET} route","timestamp":"2022-04-06 11:21:15"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/banner/:id, GET} route","timestamp":"2022-04-06 11:21:15"}
+{"context":"RoutesResolver","level":"info","message":"AdminBannerController {/api/admin/banner}:","timestamp":"2022-04-06 11:21:15"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/banner/fetch, GET} route","timestamp":"2022-04-06 11:21:15"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/banner/show/banner_id=:id, PATCH} route","timestamp":"2022-04-06 11:21:15"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2022-04-06 11:21:15"}
+{"level":"info","message":"\n      ################################################\n      \ud83d\udee1️  Server listening on port: 4000 \ud83d\udee1️\n      Swagger:  http://localhost:4000/api/public/docs\n      ################################################\n    ","timestamp":"2022-04-06 11:21:15"}
+{"context":"RoutesResolver","level":"info","message":"TotpController {/api/public/totp}:","timestamp":"2022-04-06 11:22:00"}
+{"context":"RoutesResolver","level":"info","message":"WithdrawsController {/api/private/withdraws}:","timestamp":"2022-04-06 11:22:00"}
+{"context":"RoutesResolver","level":"info","message":"AdminArticleController {/api/admin/article}:","timestamp":"2022-04-06 11:22:00"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/create, POST} route","timestamp":"2022-04-06 11:22:00"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/list, GET} route","timestamp":"2022-04-06 11:22:00"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/find/:id, GET} route","timestamp":"2022-04-06 11:22:00"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/:id, PATCH} route","timestamp":"2022-04-06 11:22:00"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/:id, DELETE} route","timestamp":"2022-04-06 11:22:00"}
+{"context":"RoutesResolver","level":"info","message":"PublicArticleController {/api/public/article}:","timestamp":"2022-04-06 11:22:00"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/article/list, GET} route","timestamp":"2022-04-06 11:22:00"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/article/:id, GET} route","timestamp":"2022-04-06 11:22:00"}
+{"context":"RoutesResolver","level":"info","message":"PublicBannerController {/api/public/banner}:","timestamp":"2022-04-06 11:22:00"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/banner/list, GET} route","timestamp":"2022-04-06 11:22:00"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/banner/:id, GET} route","timestamp":"2022-04-06 11:22:00"}
+{"context":"RoutesResolver","level":"info","message":"AdminBannerController {/api/admin/banner}:","timestamp":"2022-04-06 11:22:00"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/banner/fetch, GET} route","timestamp":"2022-04-06 11:22:00"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/banner/show/banner_id=:id, PATCH} route","timestamp":"2022-04-06 11:22:00"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2022-04-06 11:22:00"}
+{"level":"info","message":"\n      ################################################\n      \ud83d\udee1️  Server listening on port: 4000 \ud83d\udee1️\n      Swagger:  http://localhost:4000/api/public/docs\n      ################################################\n    ","timestamp":"2022-04-06 11:22:00"}
+{"context":"RoutesResolver","level":"info","message":"TotpController {/api/public/totp}:","timestamp":"2022-04-06 11:26:37"}
+{"context":"RoutesResolver","level":"info","message":"WithdrawsController {/api/private/withdraws}:","timestamp":"2022-04-06 11:26:37"}
+{"context":"RoutesResolver","level":"info","message":"AdminArticleController {/api/admin/article}:","timestamp":"2022-04-06 11:26:37"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/create, POST} route","timestamp":"2022-04-06 11:26:37"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/list, GET} route","timestamp":"2022-04-06 11:26:37"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/find/:id, GET} route","timestamp":"2022-04-06 11:26:37"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/:id, PATCH} route","timestamp":"2022-04-06 11:26:37"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/:id, DELETE} route","timestamp":"2022-04-06 11:26:37"}
+{"context":"RoutesResolver","level":"info","message":"PublicArticleController {/api/public/article}:","timestamp":"2022-04-06 11:26:37"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/article/list, GET} route","timestamp":"2022-04-06 11:26:37"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/article/:id, GET} route","timestamp":"2022-04-06 11:26:37"}
+{"context":"RoutesResolver","level":"info","message":"PublicBannerController {/api/public/banner}:","timestamp":"2022-04-06 11:26:37"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/banner/list, GET} route","timestamp":"2022-04-06 11:26:37"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/banner/:id, GET} route","timestamp":"2022-04-06 11:26:37"}
+{"context":"RoutesResolver","level":"info","message":"AdminBannerController {/api/admin/banner}:","timestamp":"2022-04-06 11:26:37"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/banner/fetch, GET} route","timestamp":"2022-04-06 11:26:37"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/banner/show/banner_id=:id, PATCH} route","timestamp":"2022-04-06 11:26:37"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2022-04-06 11:26:37"}
+{"level":"info","message":"\n      ################################################\n      \ud83d\udee1️  Server listening on port: 4000 \ud83d\udee1️\n      Swagger:  http://localhost:4000/api/public/docs\n      ################################################\n    ","timestamp":"2022-04-06 11:26:37"}
+{"context":"RoutesResolver","level":"info","message":"TotpController {/api/public/totp}:","timestamp":"2022-04-06 11:28:52"}
+{"context":"RoutesResolver","level":"info","message":"WithdrawsController {/api/private/withdraws}:","timestamp":"2022-04-06 11:28:52"}
+{"context":"RoutesResolver","level":"info","message":"AdminArticleController {/api/admin/article}:","timestamp":"2022-04-06 11:28:52"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/create, POST} route","timestamp":"2022-04-06 11:28:52"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/list, GET} route","timestamp":"2022-04-06 11:28:52"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/find/:id, GET} route","timestamp":"2022-04-06 11:28:52"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/:id, PATCH} route","timestamp":"2022-04-06 11:28:52"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/:id, DELETE} route","timestamp":"2022-04-06 11:28:52"}
+{"context":"RoutesResolver","level":"info","message":"PublicArticleController {/api/public/article}:","timestamp":"2022-04-06 11:28:52"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/article/list, GET} route","timestamp":"2022-04-06 11:28:52"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/article/:id, GET} route","timestamp":"2022-04-06 11:28:52"}
+{"context":"RoutesResolver","level":"info","message":"PublicBannerController {/api/public/banner}:","timestamp":"2022-04-06 11:28:52"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/banner/list, GET} route","timestamp":"2022-04-06 11:28:52"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/banner/:id, GET} route","timestamp":"2022-04-06 11:28:52"}
+{"context":"RoutesResolver","level":"info","message":"AdminBannerController {/api/admin/banner}:","timestamp":"2022-04-06 11:28:52"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/banner/fetch, GET} route","timestamp":"2022-04-06 11:28:52"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/banner/show/banner_id=:id, PATCH} route","timestamp":"2022-04-06 11:28:52"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2022-04-06 11:28:52"}
+{"level":"info","message":"\n      ################################################\n      \ud83d\udee1️  Server listening on port: 4000 \ud83d\udee1️\n      Swagger:  http://localhost:4000/api/public/docs\n      ################################################\n    ","timestamp":"2022-04-06 11:28:52"}
+{"context":"RoutesResolver","level":"info","message":"TotpController {/public/totp}:","timestamp":"2022-04-06 11:41:41"}
+{"context":"RoutesResolver","level":"info","message":"WithdrawsController {/private/withdraws}:","timestamp":"2022-04-06 11:41:41"}
+{"context":"RoutesResolver","level":"info","message":"AdminArticleController {/admin/article}:","timestamp":"2022-04-06 11:41:41"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/article/create, POST} route","timestamp":"2022-04-06 11:41:41"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/article/list, GET} route","timestamp":"2022-04-06 11:41:41"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/article/find/:id, GET} route","timestamp":"2022-04-06 11:41:41"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/article/:id, PATCH} route","timestamp":"2022-04-06 11:41:41"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/article/:id, DELETE} route","timestamp":"2022-04-06 11:41:41"}
+{"context":"RoutesResolver","level":"info","message":"PublicArticleController {/public/article}:","timestamp":"2022-04-06 11:41:41"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/public/article/list, GET} route","timestamp":"2022-04-06 11:41:41"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/public/article/:id, GET} route","timestamp":"2022-04-06 11:41:41"}
+{"context":"RoutesResolver","level":"info","message":"PublicBannerController {/public/banner}:","timestamp":"2022-04-06 11:41:41"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/public/banner/list, GET} route","timestamp":"2022-04-06 11:41:41"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/public/banner/:id, GET} route","timestamp":"2022-04-06 11:41:41"}
+{"context":"RoutesResolver","level":"info","message":"AdminBannerController {/admin/banner}:","timestamp":"2022-04-06 11:41:41"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/banner/fetch, GET} route","timestamp":"2022-04-06 11:41:41"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/banner/show/banner_id=:id, PATCH} route","timestamp":"2022-04-06 11:41:41"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2022-04-06 11:41:41"}
+{"level":"info","message":"\n      ################################################\n      \ud83d\udee1️  Server listening on port: 4000 \ud83d\udee1️\n      Swagger:  http://localhost:4000//public/docs\n      ################################################\n    ","timestamp":"2022-04-06 11:41:41"}
+{"context":"RoutesResolver","level":"info","message":"TotpController {/public/totp}:","timestamp":"2022-04-06 11:44:14"}
+{"context":"RoutesResolver","level":"info","message":"WithdrawsController {/private/withdraws}:","timestamp":"2022-04-06 11:44:14"}
+{"context":"RoutesResolver","level":"info","message":"AdminArticleController {/admin/article}:","timestamp":"2022-04-06 11:44:14"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/article/create, POST} route","timestamp":"2022-04-06 11:44:14"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/article/list, GET} route","timestamp":"2022-04-06 11:44:14"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/article/find/:id, GET} route","timestamp":"2022-04-06 11:44:14"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/article/:id, PATCH} route","timestamp":"2022-04-06 11:44:14"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/article/:id, DELETE} route","timestamp":"2022-04-06 11:44:14"}
+{"context":"RoutesResolver","level":"info","message":"PublicArticleController {/public/article}:","timestamp":"2022-04-06 11:44:14"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/public/article/list, GET} route","timestamp":"2022-04-06 11:44:14"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/public/article/:id, GET} route","timestamp":"2022-04-06 11:44:14"}
+{"context":"RoutesResolver","level":"info","message":"PublicBannerController {/public/banner}:","timestamp":"2022-04-06 11:44:14"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/public/banner/list, GET} route","timestamp":"2022-04-06 11:44:14"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/public/banner/:id, GET} route","timestamp":"2022-04-06 11:44:14"}
+{"context":"RoutesResolver","level":"info","message":"AdminBannerController {/admin/banner}:","timestamp":"2022-04-06 11:44:14"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/banner/fetch, GET} route","timestamp":"2022-04-06 11:44:14"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/banner/show/banner_id=:id, PATCH} route","timestamp":"2022-04-06 11:44:14"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2022-04-06 11:44:14"}
+{"level":"info","message":"\n      ################################################\n      \ud83d\udee1️  Server listening on port: 4000 \ud83d\udee1️\n      Swagger:  http://localhost:4000/public/docs\n      ################################################\n    ","timestamp":"2022-04-06 11:44:14"}
+{"context":"RoutesResolver","level":"info","message":"TotpController {/api/public/totp}:","timestamp":"2022-04-06 11:45:29"}
+{"context":"RoutesResolver","level":"info","message":"WithdrawsController {/api/private/withdraws}:","timestamp":"2022-04-06 11:45:29"}
+{"context":"RoutesResolver","level":"info","message":"AdminArticleController {/api/admin/article}:","timestamp":"2022-04-06 11:45:29"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/create, POST} route","timestamp":"2022-04-06 11:45:29"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/list, GET} route","timestamp":"2022-04-06 11:45:29"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/find/:id, GET} route","timestamp":"2022-04-06 11:45:29"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/:id, PATCH} route","timestamp":"2022-04-06 11:45:29"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/:id, DELETE} route","timestamp":"2022-04-06 11:45:29"}
+{"context":"RoutesResolver","level":"info","message":"PublicArticleController {/api/public/article}:","timestamp":"2022-04-06 11:45:29"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/article/list, GET} route","timestamp":"2022-04-06 11:45:29"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/article/:id, GET} route","timestamp":"2022-04-06 11:45:29"}
+{"context":"RoutesResolver","level":"info","message":"PublicBannerController {/api/public/banner}:","timestamp":"2022-04-06 11:45:29"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/banner/list, GET} route","timestamp":"2022-04-06 11:45:29"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/banner/:id, GET} route","timestamp":"2022-04-06 11:45:29"}
+{"context":"RoutesResolver","level":"info","message":"AdminBannerController {/api/admin/banner}:","timestamp":"2022-04-06 11:45:29"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/banner/fetch, GET} route","timestamp":"2022-04-06 11:45:29"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/banner/show/banner_id=:id, PATCH} route","timestamp":"2022-04-06 11:45:29"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2022-04-06 11:45:29"}
+{"level":"info","message":"\n      ################################################\n      \ud83d\udee1️  Server listening on port: 4000 \ud83d\udee1️\n      Swagger:  http://localhost:4000/api/public/docs\n      ################################################\n    ","timestamp":"2022-04-06 11:45:29"}
+{"context":"RoutesResolver","level":"info","message":"TotpController {/api/public/totp}:","timestamp":"2022-04-06 12:44:14"}
+{"context":"RoutesResolver","level":"info","message":"WithdrawsController {/api/private/withdraws}:","timestamp":"2022-04-06 12:44:14"}
+{"context":"RoutesResolver","level":"info","message":"AdminArticleController {/api/admin/article}:","timestamp":"2022-04-06 12:44:14"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/create, POST} route","timestamp":"2022-04-06 12:44:14"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/list, GET} route","timestamp":"2022-04-06 12:44:14"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/find/:id, GET} route","timestamp":"2022-04-06 12:44:14"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/:id, PATCH} route","timestamp":"2022-04-06 12:44:14"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/:id, DELETE} route","timestamp":"2022-04-06 12:44:14"}
+{"context":"RoutesResolver","level":"info","message":"PublicArticleController {/api/public/article}:","timestamp":"2022-04-06 12:44:14"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/article/list, GET} route","timestamp":"2022-04-06 12:44:14"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/article/:id, GET} route","timestamp":"2022-04-06 12:44:14"}
+{"context":"RoutesResolver","level":"info","message":"PublicBannerController {/api/public/banner}:","timestamp":"2022-04-06 12:44:14"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/banner/list, GET} route","timestamp":"2022-04-06 12:44:14"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/banner/:id, GET} route","timestamp":"2022-04-06 12:44:14"}
+{"context":"RoutesResolver","level":"info","message":"AdminBannerController {/api/admin/banner}:","timestamp":"2022-04-06 12:44:14"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/banner/fetch, GET} route","timestamp":"2022-04-06 12:44:14"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/banner/show/banner_id=:id, PATCH} route","timestamp":"2022-04-06 12:44:14"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2022-04-06 12:44:14"}
+{"level":"info","message":"\n      ################################################\n      \ud83d\udee1️  Server listening on port: 4000 \ud83d\udee1️\n      Swagger:  http://localhost:4000/api/public/docs\n      ################################################\n    ","timestamp":"2022-04-06 12:44:14"}
+{"context":"RoutesResolver","level":"info","message":"TotpController {/api/public/totp}:","timestamp":"2022-04-06 13:41:33"}
+{"context":"RoutesResolver","level":"info","message":"WithdrawsController {/api/private/withdraws}:","timestamp":"2022-04-06 13:41:33"}
+{"context":"RoutesResolver","level":"info","message":"AdminArticleController {/api/admin/article}:","timestamp":"2022-04-06 13:41:33"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/create, POST} route","timestamp":"2022-04-06 13:41:33"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/list, GET} route","timestamp":"2022-04-06 13:41:33"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/find/:id, GET} route","timestamp":"2022-04-06 13:41:33"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/:id, PATCH} route","timestamp":"2022-04-06 13:41:33"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/:id, DELETE} route","timestamp":"2022-04-06 13:41:33"}
+{"context":"RoutesResolver","level":"info","message":"PublicArticleController {/api/public/article}:","timestamp":"2022-04-06 13:41:33"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/article/list, GET} route","timestamp":"2022-04-06 13:41:33"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/article/:id, GET} route","timestamp":"2022-04-06 13:41:33"}
+{"context":"RoutesResolver","level":"info","message":"PublicBannerController {/api/public/banner}:","timestamp":"2022-04-06 13:41:33"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/banner/list, GET} route","timestamp":"2022-04-06 13:41:33"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/banner/:id, GET} route","timestamp":"2022-04-06 13:41:33"}
+{"context":"RoutesResolver","level":"info","message":"AdminBannerController {/api/admin/banner}:","timestamp":"2022-04-06 13:41:33"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/banner/fetch, GET} route","timestamp":"2022-04-06 13:41:33"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/banner/show/banner_id=:id, PATCH} route","timestamp":"2022-04-06 13:41:33"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2022-04-06 13:41:33"}
+{"level":"error","message":"Error: listen EADDRINUSE: address already in use :::4000","stack":["NestApplication"],"timestamp":"2022-04-06 13:41:33"}
+{"context":"RoutesResolver","level":"info","message":"TotpController {/api/public/totp}:","timestamp":"2022-04-06 13:42:24"}
+{"context":"RoutesResolver","level":"info","message":"WithdrawsController {/api/private/withdraws}:","timestamp":"2022-04-06 13:42:24"}
+{"context":"RoutesResolver","level":"info","message":"AdminArticleController {/api/admin/article}:","timestamp":"2022-04-06 13:42:24"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/create, POST} route","timestamp":"2022-04-06 13:42:24"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/list, GET} route","timestamp":"2022-04-06 13:42:24"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/find/:id, GET} route","timestamp":"2022-04-06 13:42:24"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/:id, PATCH} route","timestamp":"2022-04-06 13:42:24"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/:id, DELETE} route","timestamp":"2022-04-06 13:42:24"}
+{"context":"RoutesResolver","level":"info","message":"PublicArticleController {/api/public/article}:","timestamp":"2022-04-06 13:42:24"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/article/list, GET} route","timestamp":"2022-04-06 13:42:24"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/article/:id, GET} route","timestamp":"2022-04-06 13:42:24"}
+{"context":"RoutesResolver","level":"info","message":"PublicBannerController {/api/public/banner}:","timestamp":"2022-04-06 13:42:24"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/banner/list, GET} route","timestamp":"2022-04-06 13:42:24"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/banner/:id, GET} route","timestamp":"2022-04-06 13:42:24"}
+{"context":"RoutesResolver","level":"info","message":"AdminBannerController {/api/admin/banner}:","timestamp":"2022-04-06 13:42:24"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/banner/fetch, GET} route","timestamp":"2022-04-06 13:42:24"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/banner/show/banner_id=:id, PATCH} route","timestamp":"2022-04-06 13:42:24"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2022-04-06 13:42:24"}
+{"level":"info","message":"\n      ################################################\n      \ud83d\udee1️  Server listening on port: 4000 \ud83d\udee1️\n      Swagger:  http://localhost:4000/api/public/docs\n      ################################################\n    ","timestamp":"2022-04-06 13:42:24"}
+{"context":"RoutesResolver","level":"info","message":"TotpController {/api/public/totp}:","timestamp":"2022-04-07 05:30:03"}
+{"context":"RoutesResolver","level":"info","message":"WithdrawsController {/api/private/withdraws}:","timestamp":"2022-04-07 05:30:03"}
+{"context":"RoutesResolver","level":"info","message":"AdminArticleController {/api/admin/article}:","timestamp":"2022-04-07 05:30:03"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/create, POST} route","timestamp":"2022-04-07 05:30:03"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/list, GET} route","timestamp":"2022-04-07 05:30:03"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/find/:id, GET} route","timestamp":"2022-04-07 05:30:03"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/:id, PATCH} route","timestamp":"2022-04-07 05:30:03"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/:id, DELETE} route","timestamp":"2022-04-07 05:30:03"}
+{"context":"RoutesResolver","level":"info","message":"PublicArticleController {/api/public/article}:","timestamp":"2022-04-07 05:30:03"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/article/list, GET} route","timestamp":"2022-04-07 05:30:03"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/article/:id, GET} route","timestamp":"2022-04-07 05:30:03"}
+{"context":"RoutesResolver","level":"info","message":"PublicBannerController {/api/public/banner}:","timestamp":"2022-04-07 05:30:03"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/banner/list, GET} route","timestamp":"2022-04-07 05:30:03"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/banner/:id, GET} route","timestamp":"2022-04-07 05:30:03"}
+{"context":"RoutesResolver","level":"info","message":"AdminBannerController {/api/admin/banner}:","timestamp":"2022-04-07 05:30:03"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/banner/fetch, GET} route","timestamp":"2022-04-07 05:30:03"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/banner/show/banner_id=:id, PATCH} route","timestamp":"2022-04-07 05:30:03"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2022-04-07 05:30:03"}
+{"level":"info","message":"\n      ################################################\n      \ud83d\udee1️  Server listening on port: 4000 \ud83d\udee1️\n      Swagger:  http://localhost:4000/api/public/docs\n      ################################################\n    ","timestamp":"2022-04-07 05:30:03"}
+{"context":"RoutesResolver","level":"info","message":"TotpController {/api/public/totp}:","timestamp":"2022-04-08 23:26:33"}
+{"context":"RoutesResolver","level":"info","message":"WithdrawsController {/api/private/withdraws}:","timestamp":"2022-04-08 23:26:33"}
+{"context":"RoutesResolver","level":"info","message":"AdminArticleController {/api/admin/article}:","timestamp":"2022-04-08 23:26:33"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/create, POST} route","timestamp":"2022-04-08 23:26:33"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/list, GET} route","timestamp":"2022-04-08 23:26:33"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/find/:id, GET} route","timestamp":"2022-04-08 23:26:33"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/:id, PATCH} route","timestamp":"2022-04-08 23:26:33"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/:id, DELETE} route","timestamp":"2022-04-08 23:26:33"}
+{"context":"RoutesResolver","level":"info","message":"PublicArticleController {/api/public/article}:","timestamp":"2022-04-08 23:26:33"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/article/list, GET} route","timestamp":"2022-04-08 23:26:33"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/article/:id, GET} route","timestamp":"2022-04-08 23:26:33"}
+{"context":"RoutesResolver","level":"info","message":"PublicBannerController {/api/public/banner}:","timestamp":"2022-04-08 23:26:33"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/banner/list, GET} route","timestamp":"2022-04-08 23:26:33"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/banner/:id, GET} route","timestamp":"2022-04-08 23:26:33"}
+{"context":"RoutesResolver","level":"info","message":"AdminBannerController {/api/admin/banner}:","timestamp":"2022-04-08 23:26:33"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/banner/fetch, GET} route","timestamp":"2022-04-08 23:26:33"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/banner/show/banner_id=:id, PATCH} route","timestamp":"2022-04-08 23:26:33"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2022-04-08 23:26:33"}
+{"level":"info","message":"\n      ################################################\n      \ud83d\udee1️  Server listening on port: 4000 \ud83d\udee1️\n      Swagger:  http://localhost:4000/api/public/docs\n      ################################################\n    ","timestamp":"2022-04-08 23:26:33"}
+{"context":"RoutesResolver","level":"info","message":"TotpController {/api/public/totp}:","timestamp":"2022-04-08 23:32:13"}
+{"context":"RoutesResolver","level":"info","message":"WithdrawsController {/api/private/withdraws}:","timestamp":"2022-04-08 23:32:13"}
+{"context":"RoutesResolver","level":"info","message":"AdminArticleController {/api/admin/article}:","timestamp":"2022-04-08 23:32:13"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/create, POST} route","timestamp":"2022-04-08 23:32:13"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/list, GET} route","timestamp":"2022-04-08 23:32:13"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/find/:id, GET} route","timestamp":"2022-04-08 23:32:13"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/:id, PATCH} route","timestamp":"2022-04-08 23:32:13"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/:id, DELETE} route","timestamp":"2022-04-08 23:32:13"}
+{"context":"RoutesResolver","level":"info","message":"PublicArticleController {/api/public/article}:","timestamp":"2022-04-08 23:32:13"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/article/list, GET} route","timestamp":"2022-04-08 23:32:13"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/article/:id, GET} route","timestamp":"2022-04-08 23:32:13"}
+{"context":"RoutesResolver","level":"info","message":"PublicBannerController {/api/public/banner}:","timestamp":"2022-04-08 23:32:13"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/banner/list, GET} route","timestamp":"2022-04-08 23:32:13"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/banner/:id, GET} route","timestamp":"2022-04-08 23:32:13"}
+{"context":"RoutesResolver","level":"info","message":"AdminBannerController {/api/admin/banner}:","timestamp":"2022-04-08 23:32:13"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/banner/fetch, GET} route","timestamp":"2022-04-08 23:32:13"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/banner/show/banner_id=:id, PATCH} route","timestamp":"2022-04-08 23:32:13"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2022-04-08 23:32:13"}
+{"level":"info","message":"\n      ################################################\n      \ud83d\udee1️  Server listening on port: 4000 \ud83d\udee1️\n      Swagger:  http://localhost:4000/api/public/docs\n      ################################################\n    ","timestamp":"2022-04-08 23:32:13"}
+{"context":"RoutesResolver","level":"info","message":"TotpController {/api/public/totp}:","timestamp":"2022-04-08 23:33:06"}
+{"context":"RoutesResolver","level":"info","message":"WithdrawsController {/api/private/withdraws}:","timestamp":"2022-04-08 23:33:06"}
+{"context":"RoutesResolver","level":"info","message":"AdminArticleController {/api/admin/article}:","timestamp":"2022-04-08 23:33:06"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/create, POST} route","timestamp":"2022-04-08 23:33:06"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/list, GET} route","timestamp":"2022-04-08 23:33:06"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/find/:id, GET} route","timestamp":"2022-04-08 23:33:06"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/:id, PATCH} route","timestamp":"2022-04-08 23:33:06"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/:id, DELETE} route","timestamp":"2022-04-08 23:33:06"}
+{"context":"RoutesResolver","level":"info","message":"PublicArticleController {/api/public/article}:","timestamp":"2022-04-08 23:33:06"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/article/list, GET} route","timestamp":"2022-04-08 23:33:06"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/article/:id, GET} route","timestamp":"2022-04-08 23:33:06"}
+{"context":"RoutesResolver","level":"info","message":"PublicBannerController {/api/public/banner}:","timestamp":"2022-04-08 23:33:06"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/banner/list, GET} route","timestamp":"2022-04-08 23:33:06"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/banner/:id, GET} route","timestamp":"2022-04-08 23:33:06"}
+{"context":"RoutesResolver","level":"info","message":"AdminBannerController {/api/admin/banner}:","timestamp":"2022-04-08 23:33:06"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/banner/fetch, GET} route","timestamp":"2022-04-08 23:33:06"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/banner/show/banner_id=:id, PATCH} route","timestamp":"2022-04-08 23:33:06"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2022-04-08 23:33:06"}
+{"level":"info","message":"\n      ################################################\n      \ud83d\udee1️  Server listening on port: 4000 \ud83d\udee1️\n      Swagger:  http://localhost:4000/api/public/docs\n      ################################################\n    ","timestamp":"2022-04-08 23:33:06"}
+{"context":"RoutesResolver","level":"info","message":"TotpController {/api/public/totp}:","timestamp":"2022-04-09 03:17:13"}
+{"context":"RoutesResolver","level":"info","message":"WithdrawsController {/api/private/withdraws}:","timestamp":"2022-04-09 03:17:13"}
+{"context":"RoutesResolver","level":"info","message":"AdminArticleController {/api/admin/article}:","timestamp":"2022-04-09 03:17:13"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/create, POST} route","timestamp":"2022-04-09 03:17:13"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/list, GET} route","timestamp":"2022-04-09 03:17:13"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/find/:id, GET} route","timestamp":"2022-04-09 03:17:13"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/:id, PATCH} route","timestamp":"2022-04-09 03:17:13"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/:id, DELETE} route","timestamp":"2022-04-09 03:17:13"}
+{"context":"RoutesResolver","level":"info","message":"PublicArticleController {/api/public/article}:","timestamp":"2022-04-09 03:17:13"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/article/list, GET} route","timestamp":"2022-04-09 03:17:13"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/article/:id, GET} route","timestamp":"2022-04-09 03:17:13"}
+{"context":"RoutesResolver","level":"info","message":"PublicBannerController {/api/public/banner}:","timestamp":"2022-04-09 03:17:13"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/banner/list, GET} route","timestamp":"2022-04-09 03:17:13"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/banner/:id, GET} route","timestamp":"2022-04-09 03:17:13"}
+{"context":"RoutesResolver","level":"info","message":"AdminBannerController {/api/admin/banner}:","timestamp":"2022-04-09 03:17:13"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/banner/fetch, GET} route","timestamp":"2022-04-09 03:17:13"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/banner/show/banner_id=:id, PATCH} route","timestamp":"2022-04-09 03:17:13"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2022-04-09 03:17:13"}
+{"level":"info","message":"\n      ################################################\n      \ud83d\udee1️  Server listening on port: 4000 \ud83d\udee1️\n      Swagger:  http://localhost:4000/api/public/docs\n      ################################################\n    ","timestamp":"2022-04-09 03:17:13"}
+{"context":"ExceptionsHandler","level":"error","message":"Unknown database 'announcement_production'","stack":["SequelizeConnectionError: Unknown database 'announcement_production'\n    at ConnectionManager.connect (/root/api/annoucement/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:126:17)\n    at processTicksAndRejections (internal/process/task_queues.js:94:5)"],"timestamp":"2022-04-09 03:17:26"}
+{"context":"RoutesResolver","level":"info","message":"TotpController {/api/public/totp}:","timestamp":"2022-04-09 03:18:21"}
+{"context":"RoutesResolver","level":"info","message":"WithdrawsController {/api/private/withdraws}:","timestamp":"2022-04-09 03:18:21"}
+{"context":"RoutesResolver","level":"info","message":"AdminArticleController {/api/admin/article}:","timestamp":"2022-04-09 03:18:21"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/create, POST} route","timestamp":"2022-04-09 03:18:21"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/list, GET} route","timestamp":"2022-04-09 03:18:21"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/find/:id, GET} route","timestamp":"2022-04-09 03:18:21"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/:id, PATCH} route","timestamp":"2022-04-09 03:18:21"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/article/:id, DELETE} route","timestamp":"2022-04-09 03:18:21"}
+{"context":"RoutesResolver","level":"info","message":"PublicArticleController {/api/public/article}:","timestamp":"2022-04-09 03:18:21"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/article/list, GET} route","timestamp":"2022-04-09 03:18:21"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/article/:id, GET} route","timestamp":"2022-04-09 03:18:21"}
+{"context":"RoutesResolver","level":"info","message":"PublicBannerController {/api/public/banner}:","timestamp":"2022-04-09 03:18:21"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/banner/list, GET} route","timestamp":"2022-04-09 03:18:21"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/public/banner/:id, GET} route","timestamp":"2022-04-09 03:18:21"}
+{"context":"RoutesResolver","level":"info","message":"AdminBannerController {/api/admin/banner}:","timestamp":"2022-04-09 03:18:21"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/banner/fetch, GET} route","timestamp":"2022-04-09 03:18:21"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/admin/banner/show/banner_id=:id, PATCH} route","timestamp":"2022-04-09 03:18:21"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2022-04-09 03:18:21"}
+{"level":"info","message":"\n      ################################################\n      \ud83d\udee1️  Server listening on port: 4000 \ud83d\udee1️\n      Swagger:  http://localhost:4000/api/public/docs\n      ################################################\n    ","timestamp":"2022-04-09 03:18:21"}
+{"context":"ExceptionsHandler","level":"error","message":"Table 'announcement_production.articles' doesn't exist","stack":["SequelizeDatabaseError: Table 'announcement_production.articles' doesn't exist\n    at Query.formatError (/root/api/annoucement/node_modules/sequelize/lib/dialects/mysql/query.js:265:16)\n    at Query.run (/root/api/annoucement/node_modules/sequelize/lib/dialects/mysql/query.js:77:18)\n    at processTicksAndRejections (internal/process/task_queues.js:94:5)"],"timestamp":"2022-04-09 03:18:24"}
+{"context":"RoutesResolver","level":"info","message":"TotpController {/public/totp}:","timestamp":"2022-04-09 03:19:23"}
+{"context":"RoutesResolver","level":"info","message":"WithdrawsController {/private/withdraws}:","timestamp":"2022-04-09 03:19:23"}
+{"context":"RoutesResolver","level":"info","message":"AdminArticleController {/admin/article}:","timestamp":"2022-04-09 03:19:23"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/article/create, POST} route","timestamp":"2022-04-09 03:19:23"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/article/list, GET} route","timestamp":"2022-04-09 03:19:23"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/article/find/:id, GET} route","timestamp":"2022-04-09 03:19:23"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/article/:id, PATCH} route","timestamp":"2022-04-09 03:19:23"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/article/:id, DELETE} route","timestamp":"2022-04-09 03:19:23"}
+{"context":"RoutesResolver","level":"info","message":"PublicArticleController {/public/article}:","timestamp":"2022-04-09 03:19:23"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/public/article/list, GET} route","timestamp":"2022-04-09 03:19:23"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/public/article/:id, GET} route","timestamp":"2022-04-09 03:19:23"}
+{"context":"RoutesResolver","level":"info","message":"PublicBannerController {/public/banner}:","timestamp":"2022-04-09 03:19:23"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/public/banner/list, GET} route","timestamp":"2022-04-09 03:19:23"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/public/banner/:id, GET} route","timestamp":"2022-04-09 03:19:23"}
+{"context":"RoutesResolver","level":"info","message":"AdminBannerController {/admin/banner}:","timestamp":"2022-04-09 03:19:23"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/banner/fetch, GET} route","timestamp":"2022-04-09 03:19:23"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/banner/show/banner_id=:id, PATCH} route","timestamp":"2022-04-09 03:19:23"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2022-04-09 03:19:23"}
+{"level":"info","message":"\n      ################################################\n      \ud83d\udee1️  Server listening on port: 4000 \ud83d\udee1️\n      Swagger:  http://localhost:4000/public/docs\n      ################################################\n    ","timestamp":"2022-04-09 03:19:23"}
+{"context":"ExceptionsHandler","level":"error","message":"Table 'announcement_production.articles' doesn't exist","stack":["SequelizeDatabaseError: Table 'announcement_production.articles' doesn't exist\n    at Query.formatError (/root/api/annoucement/node_modules/sequelize/lib/dialects/mysql/query.js:265:16)\n    at Query.run (/root/api/annoucement/node_modules/sequelize/lib/dialects/mysql/query.js:77:18)\n    at processTicksAndRejections (internal/process/task_queues.js:94:5)"],"timestamp":"2022-04-09 03:19:30"}
+{"context":"RoutesResolver","level":"info","message":"TotpController {/public/totp}:","timestamp":"2022-04-09 03:22:44"}
+{"context":"RoutesResolver","level":"info","message":"WithdrawsController {/private/withdraws}:","timestamp":"2022-04-09 03:22:44"}
+{"context":"RoutesResolver","level":"info","message":"AdminArticleController {/admin/article}:","timestamp":"2022-04-09 03:22:44"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/article/create, POST} route","timestamp":"2022-04-09 03:22:44"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/article/list, GET} route","timestamp":"2022-04-09 03:22:44"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/article/find/:id, GET} route","timestamp":"2022-04-09 03:22:44"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/article/:id, PATCH} route","timestamp":"2022-04-09 03:22:44"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/article/:id, DELETE} route","timestamp":"2022-04-09 03:22:44"}
+{"context":"RoutesResolver","level":"info","message":"PublicArticleController {/public/article}:","timestamp":"2022-04-09 03:22:44"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/public/article/list, GET} route","timestamp":"2022-04-09 03:22:44"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/public/article/:id, GET} route","timestamp":"2022-04-09 03:22:44"}
+{"context":"RoutesResolver","level":"info","message":"PublicBannerController {/public/banner}:","timestamp":"2022-04-09 03:22:44"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/public/banner/list, GET} route","timestamp":"2022-04-09 03:22:44"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/public/banner/:id, GET} route","timestamp":"2022-04-09 03:22:44"}
+{"context":"RoutesResolver","level":"info","message":"AdminBannerController {/admin/banner}:","timestamp":"2022-04-09 03:22:44"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/banner/fetch, GET} route","timestamp":"2022-04-09 03:22:44"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/banner/show/banner_id=:id, PATCH} route","timestamp":"2022-04-09 03:22:44"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2022-04-09 03:22:44"}
+{"level":"info","message":"\n      ################################################\n      \ud83d\udee1️  Server listening on port: 4000 \ud83d\udee1️\n      Swagger:  http://localhost:4000/public/docs\n      ################################################\n    ","timestamp":"2022-04-09 03:22:44"}
+{"context":"RoutesResolver","level":"info","message":"TotpController {/public/totp}:","timestamp":"2022-04-09 04:13:38"}
+{"context":"RoutesResolver","level":"info","message":"WithdrawsController {/private/withdraws}:","timestamp":"2022-04-09 04:13:38"}
+{"context":"RoutesResolver","level":"info","message":"AdminArticleController {/admin/article}:","timestamp":"2022-04-09 04:13:38"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/article/create, POST} route","timestamp":"2022-04-09 04:13:38"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/article/list, GET} route","timestamp":"2022-04-09 04:13:38"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/article/find/:id, GET} route","timestamp":"2022-04-09 04:13:38"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/article/:id, PATCH} route","timestamp":"2022-04-09 04:13:38"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/article/:id, DELETE} route","timestamp":"2022-04-09 04:13:38"}
+{"context":"RoutesResolver","level":"info","message":"PublicArticleController {/public/article}:","timestamp":"2022-04-09 04:13:38"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/public/article/list, GET} route","timestamp":"2022-04-09 04:13:38"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/public/article/:id, GET} route","timestamp":"2022-04-09 04:13:38"}
+{"context":"RoutesResolver","level":"info","message":"PublicBannerController {/public/banner}:","timestamp":"2022-04-09 04:13:38"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/public/banner/list, GET} route","timestamp":"2022-04-09 04:13:38"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/public/banner/:id, GET} route","timestamp":"2022-04-09 04:13:38"}
+{"context":"RoutesResolver","level":"info","message":"AdminBannerController {/admin/banner}:","timestamp":"2022-04-09 04:13:38"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/banner/fetch, GET} route","timestamp":"2022-04-09 04:13:38"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/banner/show/banner_id=:id, PATCH} route","timestamp":"2022-04-09 04:13:38"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2022-04-09 04:13:38"}
+{"level":"info","message":"\n      ################################################\n      \ud83d\udee1️  Server listening on port: 4000 \ud83d\udee1️\n      Swagger:  http://localhost:4000/public/docs\n      ################################################\n    ","timestamp":"2022-04-09 04:13:38"}
+{"context":"RoutesResolver","level":"info","message":"TotpController {/public/totp}:","timestamp":"2022-04-09 04:23:57"}
+{"context":"RoutesResolver","level":"info","message":"WithdrawsController {/private/withdraws}:","timestamp":"2022-04-09 04:23:57"}
+{"context":"RoutesResolver","level":"info","message":"AdminArticleController {/admin/article}:","timestamp":"2022-04-09 04:23:57"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/article/create, POST} route","timestamp":"2022-04-09 04:23:57"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/article/list, GET} route","timestamp":"2022-04-09 04:23:57"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/article/find/:id, GET} route","timestamp":"2022-04-09 04:23:57"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/article/:id, PATCH} route","timestamp":"2022-04-09 04:23:57"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/article/:id, DELETE} route","timestamp":"2022-04-09 04:23:57"}
+{"context":"RoutesResolver","level":"info","message":"PublicArticleController {/public/article}:","timestamp":"2022-04-09 04:23:57"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/public/article/list, GET} route","timestamp":"2022-04-09 04:23:57"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/public/article/:id, GET} route","timestamp":"2022-04-09 04:23:57"}
+{"context":"RoutesResolver","level":"info","message":"PublicBannerController {/public/banner}:","timestamp":"2022-04-09 04:23:57"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/public/banner/list, GET} route","timestamp":"2022-04-09 04:23:57"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/public/banner/:id, GET} route","timestamp":"2022-04-09 04:23:57"}
+{"context":"RoutesResolver","level":"info","message":"AdminBannerController {/admin/banner}:","timestamp":"2022-04-09 04:23:57"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/banner/fetch, GET} route","timestamp":"2022-04-09 04:23:57"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/admin/banner/show/banner_id=:id, PATCH} route","timestamp":"2022-04-09 04:23:57"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","timestamp":"2022-04-09 04:23:57"}
+{"level":"info","message":"\n      ################################################\n      \ud83d\udee1️  Server listening on port: 4000 \ud83d\udee1️\n      Swagger:  http://localhost:4000/public/docs\n      ################################################\n    ","timestamp":"2022-04-09 04:23:57"}

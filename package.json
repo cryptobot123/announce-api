@@ -1,0 +1,33 @@
+{
+  "name": "announcement-api",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./main.js",
+  "engines": {
+    "node": ">= 14"
+  },
+  "dependencies": {
+    "@nestjs/common": "8.2.4",
+    "@nestjs/config": "1.1.5",
+    "@nestjs/core": "8.2.4",
+    "@nestjs/platform-express": "8.0.0",
+    "@nestjs/schedule": "1.0.2",
+    "@nestjs/swagger": "5.1.5",
+    "class-validator": "0.13.2",
+    "cls-hooked": "4.2.2",
+    "config": "3.3.6",
+    "dotenv": "10.0.0",
+    "express-unless": "1.0.0",
+    "js-yaml": "4.1.0",
+    "jsonwebtoken": "8.5.1",
+    "mysql2": "2.3.3",
+    "nest-winston": "1.6.2",
+    "node-vault": "0.9.22",
+    "reflect-metadata": "0.1.13",
+    "rxjs": "7.4.0",
+    "sequelize": "6.6.2",
+    "swagger-ui-express": "^4.3.0",
+    "tslib": "2.3.1",
+    "winston": "3.3.3"
+  }
+}
